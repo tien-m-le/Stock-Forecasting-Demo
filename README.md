@@ -75,38 +75,14 @@ Final Demo System
 Forecasting Workflow
 ```
 
-  ------------------------------------------------------------------------
-  Stage            Objective                 Main Result
-  ---------------- ------------------------- -----------------------------
-  **Experiment 1** Forecast tomorrow's SPY   Traditional time-series
-                   closing price using       models did not outperform a
-                   AutoReg, ARIMA, and       persistence forecast.
-                   SARIMAX                   
-
-  **Experiment 2** Predict next-day SPY      Small Decision Trees
-                   direction                 consistently outperformed
-                                             more complex models, although
-                                             overall gains remained
-                                             modest.
-
-  **Experiment 3** Add VIX, QQQ, TNX and     Additional market information
-                   Bitcoin                   did not improve predictive
-                                             performance.
-
-  **Experiment 4** Compact                   Produced the strongest
-                   technical-analysis        downside-warning models and
-                   feature engineering       became the foundation of the
-                                             final system.
-
-  **Experiment 5** Extended feature          More features increased
-                   engineering               complexity but did not
-                                             improve predictive
-                                             performance.
-
-  **Final Demo     Forecasting workflow      Uses the strongest-performing
-  System**                                   models and feature set
-                                             discovered during development.
-  ------------------------------------------------------------------------
+| Stage | Objective | Main Result |
+|---|---|---|
+| **Experiment 1** | Forecast tomorrow's SPY closing price using AutoReg, ARIMA, and SARIMAX | Traditional time-series models did not outperform a persistence forecast. |
+| **Experiment 2** | Predict next-day SPY direction | Small Decision Trees consistently outperformed more complex models, although overall gains remained modest. |
+| **Experiment 3** | Add VIX, QQQ, TNX, and Bitcoin | Additional market information did not improve predictive performance. |
+| **Experiment 4** | Compact technical-analysis feature engineering | Produced the strongest downside-warning models and became the foundation of the final system. |
+| **Experiment 5** | Extended feature engineering | More features increased complexity but did not improve predictive performance. |
+| **Final Demo System** | Forecasting workflow | Uses the strongest-performing models and feature set discovered during development. |
 
 ------------------------------------------------------------------------
 
